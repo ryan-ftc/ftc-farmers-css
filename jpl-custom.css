@@ -9,14 +9,11 @@
     Overwriting global website styles
 */
 
-.main-navigation li a {
-    padding: 3px 10px 0;
-    /* reduce horizontal padding to fit in New Collections */
-}
 .ish-content {
     min-height: 0;
     /* for stacked components in the events page */
 }
+
 .tile-image img {
     width: 100%;
     /* full width tile images to fix up on mobile */
@@ -28,7 +25,6 @@
 }
 
 /* START show elements on mobile */
-
 @media only screen and (max-width: 767px) {
     .show-mobile {
         display: block !important;
@@ -40,7 +36,6 @@
         border-right: 0px !important;
     }
 }
-
 /* END show elements on mobile */
 
 /* Overwriting Promotion Bar */
@@ -50,7 +45,6 @@
 }
 
 /* Overwriting IS size guide table rules with default Bootstrap values */
-
 .sizeGuide-dialog input {
     font-size: 12px;
 }
@@ -81,8 +75,15 @@
 .sizeGuide-dialog {
     max-width: 400px;
 }
-
 /* END Overwriting IS size guide table rules with default Bootstrap values */
+
+@media screen and (max-width: 767px) { /* show and centre category banner call-outs on mobile */
+    .container-category-branding > div:not(.carousel) {
+        display: block !important;
+        text-align: center;
+    }
+}
+
 
 
 /* ======================= GENERAL TAGS =======================
