@@ -40,8 +40,15 @@
 
 /* Overwriting Promotion Bar */
 .promotion-bar {
-    background: #702082;
+    background: black;
     height: auto;
+    margin-bottom: 0.4rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .promotion-bar {
+        border-bottom: 0.2rem solid #f69b19;
+    }
 }
 
 /* Overwriting IS size guide table rules with default Bootstrap values */
