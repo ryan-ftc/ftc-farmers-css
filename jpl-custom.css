@@ -282,6 +282,22 @@ li.filter-list-item input[type="checkbox"].ws-checkbox.kor-change-document-locat
     Tags and classes for structure or for specific pages
 */
 
+/* START My Account - Farmers Club - Dec 2017 UI changes */
+.my-account-farmers-club .club-member-wrapper h3 { height: auto; }
+
+.my-account-farmers-club .club-member-wrapper .club-member-info { text-align: center; }
+
+.my-account-farmers-club .club-member-wrapper .club-member-info a { font-size: 13px; }
+
+.my-account-farmers-club .club-member-points { font-size: 13px; text-align: center; }
+
+.my-account-farmers-club .club-member-wrapper .club-member-info {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid lightgray;
+}
+/* END My Account - Farmers Club - Dec 2017 UI changes */
 
 /* Explicitly hide homepage tile images on mobile, for Akamai FEO */
 @media (max-width: 767px)
